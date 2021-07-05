@@ -11,6 +11,11 @@ Submitted as part of the [BIG hackathon 2021](https://euhack21.bemyapp.com/)
 See summary presentation here:
 https://docs.google.com/presentation/d/1eKSb55Fo2qkk7IUtFgNY2g8iTeiwdY71WxRHwyDFhG8/edit#slide=id.ge3987965f0_2_745
 
+## Architecture
+The app uses an algorithm to divide provided municipality datasets into 9 groups based on similar characteristics, which implies they are facing similar problems. Then, a general web based user interface is used to cisualise the resulting data and allow municipalities to find similar places to cooperate with. Efficient communication between the matched municipalities can be reached via X-Road.
+
+On the following picture you can see the overall architecture, with some added commentary below:
+![image](https://user-images.githubusercontent.com/22589593/124494884-aca23f80-ddb7-11eb-9e93-e31257603de7.png)
 
 ## Deployment
 ### Base web app
