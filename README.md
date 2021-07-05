@@ -4,6 +4,8 @@
 A project helping connect municipalities with similar problems based on the Self Organising Maps AI algorithm.
 
 Submitted as part of the [BIG hackathon 2021](https://euhack21.bemyapp.com/)
+![image](https://user-images.githubusercontent.com/22589593/124494107-baa39080-ddb6-11eb-981f-80f4b17073f4.png)
+
 
 ## Presentation
 See summary presentation here:
@@ -13,6 +15,15 @@ https://docs.google.com/presentation/d/1eKSb55Fo2qkk7IUtFgNY2g8iTeiwdY71WxRHwyDF
 ## Deployment
 ### Base web app
 Most of the application is implemented in server side Kotlin, so to deploy it npm is needed.
+
+First, download this source code [or clone the repo](https://github.com/Plavit/ConnectGov/)
+
+Once you have downloaded the example install the dependencies and run the app. It might take a while the first time you do this.
+
+```bash
+npm install
+npm run dev
+```
 
 The application should look somewhat like this:
 ![image](https://user-images.githubusercontent.com/22589593/124493567-13bef480-ddb6-11eb-9bf0-4ac7b80f75c6.png)
