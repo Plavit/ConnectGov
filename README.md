@@ -16,7 +16,7 @@ https://docs.google.com/presentation/d/1eKSb55Fo2qkk7IUtFgNY2g8iTeiwdY71WxRHwyDF
 ### Base web app
 Most of the application is implemented in server side Kotlin, so to deploy it npm is needed.
 
-First, download this source code [or clone the repo](https://github.com/Plavit/ConnectGov/)
+First, download this source code  in folder ```web-app-master``` [or clone the repo](https://github.com/Plavit/ConnectGov/)
 
 Once you have downloaded the example install the dependencies and run the app. It might take a while the first time you do this.
 
