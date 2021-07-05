@@ -24,7 +24,7 @@ The AI Clustering algorithm "Self Organising Maps" was created in Python via a J
  #### Backend
  Backend is made by combined Kotlin and Java/Spring implementation, with python scripts connecting to the AI algorithm dataset
  #### Frontend
- Frontend uses regular HTML,CSS,JS suite, utilising Corpis Maps for visualisations
+ Frontend uses regular HTML, CSS, JS suite, utilising Corpis Maps API for visualisations
  
 ### Communication via X-Roads
 Unfortunately, the integration with X-Roads is not fully complete as it proved challenging. However, the plan is that after the municipalities are matched, they can share selected sensitive datasets via the existing X-Road framework and protocols.
@@ -60,4 +60,6 @@ Currently requires Unity to be run. After adapting the requirements file to refl
 
 ## Acknowledgements
 Based on research done as part of my study at the University of Cambridge and Czech Technical University
-Some data and frameworks were provided with great help by colleagues [*__Pavel Krulec__*](https://github.com/harakiwi1) and *__Šimon Mandlík__*
+Some data and frameworks were provided with great help by colleagues [*__Pavel Krulec__*](https://github.com/harakiwi1) and [*__Šimon Mandlík__*](https://github.com/SimonMandlik)
+
+The author declares no conflicts of interest as part of this submission.
