@@ -63,8 +63,12 @@ npm run dev
 Unless you specify otherwise in the package, the app will run locally on port 4200 by default.
 
 The application should look somewhat like this:
+
 ![image](https://user-images.githubusercontent.com/22589593/124493567-13bef480-ddb6-11eb-9bf0-4ac7b80f75c6.png)
 
+Here is a video demo:
+
+![image](graphics/web-demo.gif)
 
 ### AR Extension
 Currently requires Unity to be run. After adapting the requirements file to reflect your system's installation folder, you can run the application after giving it access to a camera. Use the provided target picture to visualise demo data like so:
