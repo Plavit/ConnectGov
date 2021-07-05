@@ -13,8 +13,12 @@ https://docs.google.com/presentation/d/1eKSb55Fo2qkk7IUtFgNY2g8iTeiwdY71WxRHwyDF
 ## Deployment
 ### Base web app
 TBD
+
 ### AR Extension
-TBD
+Currently requires Unity to be run. After adapting the requirements file to reflect your system's installation folder, use the provided target picture to visualise demo data like so:
+
+![image](https://user-images.githubusercontent.com/22589593/124493508-00138e00-ddb6-11eb-8ddf-0d5f10e67ea4.png)
+
 
 ## Acknowledgements
 Based on research done as part of my study at the University of Cambridge and Czech Technical University
