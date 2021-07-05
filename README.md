@@ -15,7 +15,23 @@ https://docs.google.com/presentation/d/1eKSb55Fo2qkk7IUtFgNY2g8iTeiwdY71WxRHwyDF
 The app uses an algorithm to divide provided municipality datasets into 9 groups based on similar characteristics, which implies they are facing similar problems. Then, a general web based user interface is used to cisualise the resulting data and allow municipalities to find similar places to cooperate with. Efficient communication between the matched municipalities can be reached via X-Road.
 
 On the following picture you can see the overall architecture, with some added commentary below:
-![image](https://user-images.githubusercontent.com/22589593/124494884-aca23f80-ddb7-11eb-9e93-e31257603de7.png)
+![image](https://user-images.githubusercontent.com/22589593/124495672-b1b3be80-ddb8-11eb-9729-7764e9bc6d49.png)
+
+### AI clustering
+The AI Clustering algorithm "Self Organising Maps" was created in Python via a JuPyTer notebook as a proof of concept based on available data from the Czech Republic.
+
+### Web App interface
+ #### Backend
+ Backend is made by combined Kotlin and Java/Spring implementation, with python scripts connecting to the AI algorithm dataset
+ #### Frontend
+ Frontend uses regular HTML,CSS,JS suite, utilising Corpis Maps for visualisations
+ 
+### Communication via X-Roads
+Unfortunately, the integration with X-Roads is not fully complete as it proved challenging. However, the plan is that after the municipalities are matched, they can share selected sensitive datasets via the existing X-Road framework and protocols.
+
+### AR visualisation
+The AR visualisation is implemented using the Vuforia API, which works on PC and Android via Unity. The source code is somewhat bloated, so only the resulted package is provided.
+
 
 ## Deployment
 ### Base web app
