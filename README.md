@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/22589593/124493073-81b6ec00-ddb5-11eb-975e-9ae95d608cb5.png)
+![image](https://user-images.githubusercontent.com/22589593/124494007-99db3b00-ddb6-11eb-9ffa-97be31fefb35.png)
 
 # ConnectGov
 A project helping connect municipalities with similar problems based on the Self Organising Maps AI algorithm.
