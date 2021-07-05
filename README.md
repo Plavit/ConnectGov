@@ -57,6 +57,9 @@ Currently requires Unity to be run. After adapting the requirements file to refl
 
 ![image](https://user-images.githubusercontent.com/22589593/124493508-00138e00-ddb6-11eb-8ddf-0d5f10e67ea4.png)
 
+Here is a video demo:
+![image](graphics/ar-demo.gif)
+
 
 ## Acknowledgements
 Based on research done as part of my study at the University of Cambridge and Czech Technical University
