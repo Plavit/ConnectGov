@@ -3,6 +3,20 @@
 # ConnectGov
 A project helping connect municipalities with similar problems based on the Self Organising Maps AI algorithm.
 
+__Table of Contents:__
+  * [Presentation](#presentation)
+  * [Architecture](#architecture)
+    + [AI clustering](#ai-clustering)
+    + [Web App interface](#web-app-interface)
+      - [Backend](#backend)
+      - [Frontend](#frontend)
+    + [Communication via X-Roads](#communication-via-x-roads)
+    + [AR visualisation](#ar-visualisation)
+  * [Deployment](#deployment)
+    + [Base web app](#base-web-app)
+    + [AR Extension](#ar-extension)
+  * [Acknowledgements](#acknowledgements)
+
 Submitted as part of the [BIG hackathon 2021](https://euhack21.bemyapp.com/) on 5 July 2021
 ![image](https://user-images.githubusercontent.com/22589593/124494107-baa39080-ddb6-11eb-981f-80f4b17073f4.png)
 
