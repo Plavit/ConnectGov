@@ -12,10 +12,14 @@ https://docs.google.com/presentation/d/1eKSb55Fo2qkk7IUtFgNY2g8iTeiwdY71WxRHwyDF
 
 ## Deployment
 ### Base web app
-TBD
+Most of the application is implemented in server side Kotlin, so to deploy it npm is needed.
+
+The application should look somewhat like this:
+![image](https://user-images.githubusercontent.com/22589593/124493567-13bef480-ddb6-11eb-9bf0-4ac7b80f75c6.png)
+
 
 ### AR Extension
-Currently requires Unity to be run. After adapting the requirements file to reflect your system's installation folder, use the provided target picture to visualise demo data like so:
+Currently requires Unity to be run. After adapting the requirements file to reflect your system's installation folder, you can run the application after giving it access to a camera. Use the provided target picture to visualise demo data like so:
 
 ![image](https://user-images.githubusercontent.com/22589593/124493508-00138e00-ddb6-11eb-8ddf-0d5f10e67ea4.png)
 
