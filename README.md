@@ -3,7 +3,21 @@
 # ConnectGov
 A project helping connect municipalities with similar problems based on the Self Organising Maps AI algorithm.
 
-Submitted as part of the [BIG hackathon 2021](https://euhack21.bemyapp.com/)
+__Table of Contents:__
+  * [Presentation](#presentation)
+  * [Architecture](#architecture)
+    + [AI clustering](#ai-clustering)
+    + [Web App interface](#web-app-interface)
+      - [Backend](#backend)
+      - [Frontend](#frontend)
+    + [Communication via X-Roads](#communication-via-x-roads)
+    + [AR visualisation](#ar-visualisation)
+  * [Deployment](#deployment)
+    + [Base web app](#base-web-app)
+    + [AR Extension](#ar-extension)
+  * [Acknowledgements](#acknowledgements)
+
+Submitted as part of the [BIG hackathon 2021](https://euhack21.bemyapp.com/) on 5 July 2021
 ![image](https://user-images.githubusercontent.com/22589593/124494107-baa39080-ddb6-11eb-981f-80f4b17073f4.png)
 
 
@@ -56,6 +70,9 @@ The application should look somewhat like this:
 Currently requires Unity to be run. After adapting the requirements file to reflect your system's installation folder, you can run the application after giving it access to a camera. Use the provided target picture to visualise demo data like so:
 
 ![image](https://user-images.githubusercontent.com/22589593/124493508-00138e00-ddb6-11eb-8ddf-0d5f10e67ea4.png)
+
+Here is a video demo:
+![image](graphics/ar-demo.gif)
 
 
 ## Acknowledgements
