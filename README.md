@@ -60,4 +60,6 @@ Currently requires Unity to be run. After adapting the requirements file to refl
 
 ## Acknowledgements
 Based on research done as part of my study at the University of Cambridge and Czech Technical University
-Some data and frameworks were provided with great help by colleagues [*__Pavel Krulec__*](https://github.com/harakiwi1) and *__Šimon Mandlík__*
+Some data and frameworks were provided with great help by colleagues [*__Pavel Krulec__*](https://github.com/harakiwi1) and [*__Šimon Mandlík__*](https://github.com/SimonMandlik)
+
+The author declares no conflicts of interest as part of this submission.
