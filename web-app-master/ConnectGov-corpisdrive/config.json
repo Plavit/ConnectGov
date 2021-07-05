@@ -1,0 +1,538 @@
+{
+	"version": 4,
+	"brand": {
+		"appName": {},
+		"partner": {}
+	},
+	"data": {
+		"table": {
+			"source": "data/rawdata/rawdata.json",
+			"aliasFields": []
+		},
+		"metadata": [
+			{
+				"field": "name",
+				"label": "name",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "municipality",
+				"label": "municipality",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "unemploymentIndex",
+				"label": "unemploymentIndex",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"format": "number",
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "emissions",
+				"label": "emissions",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"format": "number",
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "menLifeExpectancy",
+				"label": "menLifeExpectancy",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"format": "number",
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "divorceRate",
+				"label": "divorceRate",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"format": "number",
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "kindergartenAccessibility",
+				"label": "kindergartenAccessibility",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"format": "number",
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "highSchoolAccessibility",
+				"label": "highSchoolAccessibility",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"format": "number",
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "healthcareAccessibility",
+				"label": "healthcareAccessibility",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"format": "number",
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "confiscationRate",
+				"label": "confiscationRate",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"format": "number",
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "industrialIndex",
+				"label": "industrialIndex",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"format": "number",
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "safetyIndex",
+				"label": "safetyIndex",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"format": "number",
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "internetAccessibility",
+				"label": "internetAccessibility",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"format": "number",
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "lat",
+				"label": "lat",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"format": "number",
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "lon",
+				"label": "lon",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"format": "number",
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "mayor",
+				"label": "mayor",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "phone",
+				"label": "phone",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "email",
+				"label": "email",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "municipalityCode",
+				"label": "municipalityCode",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"format": "number",
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "culturalInheritance",
+				"label": "culturalInheritance",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"format": "number",
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "unemploymentRate",
+				"label": "unemploymentRate",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"format": "number",
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "numberOfInhabitants",
+				"label": "numberOfInhabitants",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"format": "number",
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "elderlyPeople",
+				"label": "elderlyPeople",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"format": "number",
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "abandonedBuildings",
+				"label": "abandonedBuildings",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"format": "number",
+				"chart": {},
+				"computed": {}
+			},
+			{
+				"field": "voterTurnout",
+				"label": "voterTurnout",
+				"search": {
+					"enable": true
+				},
+				"filter": {
+					"enable": true
+				},
+				"info": {
+					"show": true,
+					"base": true,
+					"aggregation": true
+				},
+				"format": "number",
+				"chart": {},
+				"computed": {}
+			}
+		]
+	},
+	"locale": {
+		"general": {
+			"zoom": {}
+		},
+		"data": {
+			"visualizations": {},
+			"aggregations": {},
+			"filters": {}
+		},
+		"info": {},
+		"search": {},
+		"chart": {},
+		"message": {},
+		"export": {
+			"orientation": {}
+		}
+	},
+	"visualizations": [
+		{
+			"label": "Clusters",
+			"renderer": "cluster",
+			"maxClusterZoom": 9,
+			"field": "municipalityCode",
+			"defaultResource": {}
+		},
+		{
+			"label": "Simple",
+			"renderer": "simple"
+		}
+	],
+	"map": {
+		"baseLayers": [
+			{
+				"type": "Tile",
+				"opacity": 0.4,
+				"filter": {
+					"effect": "grayscale",
+					"alpha": 1
+				},
+				"source": {
+					"type": "XYZ",
+					"options": {
+						"url": "/tileserver/styles/tmw/{z}/{x}/{y}.png"
+					},
+					"attribution": [
+						{
+							"href": "https://www.openstreetmap.org/copyright",
+							"label": "© OpenStreetMap contributors"
+						}
+					]
+				}
+			},
+			{
+				"type": "Vector",
+				"opacity": 0.8,
+				"filter": {},
+				"source": {
+					"type": "Vector",
+					"options": {
+						"url": "//apps.corpismaps.com/corpis/public/areas/cz/world-excluding-cz.json"
+					}
+				},
+				"style": {
+					"stroke": {},
+					"fill": {
+						"color": "grey"
+					}
+				}
+			}
+		],
+		"zoom": {
+			"initial": 7
+		},
+		"center": [
+			17.44,
+			50.08
+		]
+	}
+}
