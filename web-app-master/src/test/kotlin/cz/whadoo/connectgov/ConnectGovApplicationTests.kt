@@ -1,4 +1,4 @@
-package cz.whadoo.smaprt
+package cz.whadoo.connectgov
 
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner
 
 @RunWith(SpringRunner::class)
 @SpringBootTest
-class SmaprtApplicationTests {
+class ConnectGovApplicationTests {
 
 	@Test
 	fun contextLoads() {
